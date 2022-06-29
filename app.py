@@ -17,7 +17,7 @@ with open('assets/rocauc.json', 'r') as f:
     fig=json.load(f)
 
 ########### open the pickle file ######
-filename = open('analysis/loan_approval_logistic_model.pkl', 'rb')
+filename = open('analysis/ethan_model.pkl', 'rb')
 unpickled_model = pickle.load(filename)
 filename.close()
 
